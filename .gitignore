@@ -1,0 +1,14 @@
+# Video source (no subir al repo — muy pesado)
+hands.mp4
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.suo
+*.user
+
+# Claude Code internal
+.claude/

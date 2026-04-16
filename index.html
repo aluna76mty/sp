@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barbería &amp; Spa Manos de Seda — Experiencia Premium</title>
+  <meta name="description" content="Masajes terapéuticos y barbería de alta gama para el caballero exigente. Monterrey." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-logo">
+      <img src="logo.jpg" alt="Manos de Seda" />
+    </div>
+    <div class="loader-brand">MANOS DE SEDA</div>
+    <div class="loader-bar-wrap">
+      <div id="loader-bar"></div>
+    </div>
+    <div id="loader-percent">0%</div>
+  </div>
+
+  <!-- FIXED HEADER -->
+  <header class="site-header" id="site-header">
+    <div class="header-logo">
+      <img src="logo.jpg" alt="Manos de Seda" />
+    </div>
+    <nav class="header-nav">
+      <a href="#">Masajes</a>
+      <a href="#">Barbería</a>
+      <a href="https://wa.me/528112763641" target="_blank" class="nav-wa-btn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Reservar
+      </a>
+    </nav>
+  </header>
+
+  <!-- HERO STANDALONE -->
+  <section class="hero-standalone" id="hero">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-content">
+      <span class="section-label">Monterrey · Barbería &amp; Spa</span>
+      <h1 class="hero-heading">
+        <span class="hero-word">Manos</span>
+        <em class="hero-word hero-word--italic">de</em>
+        <span class="hero-word">Seda</span>
+      </h1>
+      <p class="hero-tagline">Recuperación física y equilibrio mental<br>bajo una atención profesional y masaje real.</p>
+      <a href="https://wa.me/528112763641" target="_blank" class="hero-cta">Agendar mi cita</a>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Descubrir</span>
+      <div class="scroll-arrow-wrap">
+        <div class="scroll-arrow-line"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CANVAS WRAP -->
+  <div class="canvas-wrap" id="canvas-wrap">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- DARK OVERLAY -->
+  <div id="dark-overlay"></div>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap" id="marquee1" data-scroll-speed="-30">
+    <div class="marquee-text">MANOS&nbsp;DE&nbsp;SEDA &nbsp;·&nbsp; BARBERÍA&nbsp;&amp;&nbsp;SPA &nbsp;·&nbsp; BIENESTAR&nbsp;MASCULINO &nbsp;·&nbsp; MONTERREY &nbsp;·&nbsp; MANOS&nbsp;DE&nbsp;SEDA &nbsp;·&nbsp; BARBERÍA&nbsp;&amp;&nbsp;SPA &nbsp;·&nbsp; BIENESTAR&nbsp;MASCULINO &nbsp;·&nbsp; MONTERREY &nbsp;·&nbsp;</div>
+  </div>
+
+  <!-- SCROLL CONTAINER -->
+  <div id="scroll-container">
+
+    <!-- 01 | BIENVENIDA -->
+    <section class="scroll-section section-content align-right"
+             data-enter="4" data-leave="20" data-animation="slide-right">
+      <div class="section-inner">
+        <span class="section-label">01 / Experiencia</span>
+        <h2 class="section-heading">El ritual<br>que mereces.</h2>
+        <p class="section-body">Un espacio donde la barbería de alta gama y el spa de bienestar se fusionan en una sola experiencia de lujo para el hombre que cuida cada detalle.</p>
+      </div>
+    </section>
+
+    <!-- 02 | MASAJES INTRO -->
+    <section class="scroll-section section-content align-left"
+             data-enter="16" data-leave="32" data-animation="fade-up">
+      <div class="section-inner">
+        <span class="section-label">02 / Masajes</span>
+        <h2 class="section-heading">Masajes<br>Manos de Seda</h2>
+        <p class="section-body">Técnicas profesionales adaptadas al ritmo del hombre moderno. Recupera tu cuerpo y equilibra tu mente.</p>
+      </div>
+    </section>
+
+    <!-- 03 | DESCONTRACTURANTE -->
+    <section class="scroll-section section-content align-right"
+             data-enter="26" data-leave="41" data-animation="slide-left">
+      <div class="section-inner">
+        <span class="section-label">Masaje · $800</span>
+        <h2 class="section-heading">Descon&shy;tracturante</h2>
+        <p class="section-body">Presión profunda en puntos gatillo. Deshace nudos musculares y devuelve movilidad total al cuerpo. El mantenimiento para seguir rindiendo al máximo.</p>
+        <span class="section-note">Para estilos de vida activos y alta carga de estrés.</span>
+      </div>
+    </section>
+
+    <!-- 04 | ANTIESTRÉS -->
+    <section class="scroll-section section-content align-left"
+             data-enter="37" data-leave="52" data-animation="scale-up">
+      <div class="section-inner">
+        <span class="section-label">Masaje · $600</span>
+        <h2 class="section-heading">Antiestrés</h2>
+        <p class="section-body">Movimientos rítmicos que calman el sistema nervioso, reducen la fatiga mental y eliminan la tensión. Finaliza el día con la mente despejada.</p>
+      </div>
+    </section>
+
+    <!-- 05 | TÁNTRICO -->
+    <section class="scroll-section section-content align-right"
+             data-enter="48" data-leave="61" data-animation="rotate-in">
+      <div class="section-inner">
+        <span class="section-label">Especialidad · $1,000</span>
+        <h2 class="section-heading">Tántrico</h2>
+        <p class="section-body">Un viaje de reconexión total a través del tacto. Expansión de la energía corporal mediante técnicas especializadas que elevan la relajación a un nivel superior.</p>
+        <span class="section-note">Experiencia exclusiva de bienestar absoluto.</span>
+      </div>
+    </section>
+
+    <!-- 06 | STATS — dark overlay zone -->
+    <section class="scroll-section section-stats"
+             data-enter="57" data-leave="71" data-animation="stagger-up">
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="stat-number" data-value="3" data-decimals="0">0</span>
+          <span class="stat-label">Masajes exclusivos</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-value="6" data-decimals="0">0</span>
+          <span class="stat-label">Servicios de barbería</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-value="100" data-decimals="0">0</span>
+          <span class="stat-suffix">%</span>
+          <span class="stat-label">Atención personalizada</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 | BARBERÍA TITLE -->
+    <section class="scroll-section section-content align-left"
+             data-enter="66" data-leave="80" data-animation="clip-reveal">
+      <div class="section-inner">
+        <span class="section-label">03 / Barbería</span>
+        <h2 class="section-heading">Barbería<br>de Alta Gama</h2>
+        <p class="section-body">Rituales de grooming con estándares de lujo. Corte, diseño y cuidado con los mejores productos para el caballero contemporáneo.</p>
+      </div>
+    </section>
+
+    <!-- 08 | SERVICIOS BARBERÍA -->
+    <section class="scroll-section section-services align-right"
+             data-enter="74" data-leave="88" data-animation="stagger-up">
+      <div class="section-inner">
+        <span class="section-label">04 / Servicios</span>
+        <div class="service-item">
+          <div class="service-row">
+            <span class="service-name">Afeitado Clásico a Navaja</span>
+            <span class="service-price">$150</span>
+          </div>
+          <span class="service-desc">Ritual con toallas calientes y aceites de maderas finas.</span>
+        </div>
+        <div class="service-item">
+          <div class="service-row">
+            <span class="service-name">Corte y Diseño de Perfil</span>
+            <span class="service-price">$200</span>
+          </div>
+          <span class="service-desc">Arquitectura facial adaptada a tus facciones.</span>
+        </div>
+        <div class="service-item">
+          <div class="service-row">
+            <span class="service-name">Camuflaje de Canas</span>
+            <span class="service-price">$600</span>
+          </div>
+          <span class="service-desc">Un toque de juventud natural en solo 10 minutos.</span>
+        </div>
+        <div class="service-item">
+          <div class="service-row">
+            <span class="service-name">Manicura Express</span>
+            <span class="service-price">$500</span>
+          </div>
+          <span class="service-desc">Pulido mate para una presentación impecable.</span>
+        </div>
+        <div class="service-item">
+          <div class="service-row">
+            <span class="service-name">Pedicura Terapéutica</span>
+            <span class="service-price">$500</span>
+          </div>
+          <span class="service-desc">Descanso profundo para quienes pasan el día en movimiento.</span>
+        </div>
+        <div class="service-item">
+          <div class="service-row">
+            <span class="service-name">Limpieza Anti-Fatiga</span>
+            <span class="service-price">$500</span>
+          </div>
+          <span class="service-desc">Skin Maintenance · Carbón y mentol revitalizan el rostro.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 09 | CTA FINAL -->
+    <section class="scroll-section section-cta align-left"
+             data-enter="86" data-leave="100" data-animation="fade-up"
+             data-persist="true">
+      <div class="section-inner">
+        <span class="section-label">05 / Reservaciones</span>
+        <h2 class="section-heading">¿Listo para<br>tu ritual?</h2>
+        <p class="section-body">Un solo mensaje es todo lo que necesitas. Atención exclusiva, sin filas, sin esperas.</p>
+        <a href="https://wa.me/528112763641" target="_blank" class="cta-button">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Agendar por WhatsApp
+        </a>
+        <p class="cta-phone">+52 81 1276 3641</p>
+      </div>
+    </section>
+
+  </div><!-- /scroll-container -->
+
+  <!-- WHATSAPP FLOTANTE -->
+  <a href="https://wa.me/528112763641" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
